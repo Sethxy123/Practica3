@@ -1,0 +1,44 @@
+/* creadores.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #0088cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #0066cc;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+section {
+    text-align: center;
+    margin: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

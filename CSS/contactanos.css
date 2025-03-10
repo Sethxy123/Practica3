@@ -1,0 +1,51 @@
+/* contactanos.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0fff0;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #33cc33;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #00cc66;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+section {
+    text-align: center;
+    margin: 40px;
+}
+
+.redes a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #004400;
+}
+
+.redes img {
+    width: 30px;
+    vertical-align: middle;
+}
